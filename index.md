@@ -42,16 +42,9 @@ From the Home tab, select Close and Load to Workbook, then followed by Only Crea
 By creating connection only, the query does not load any data into Excel table or Power BI model.  It creates a connection object that can be used later.
 
 ### Get data from folder
-<div style="overflow: auto;">
+
   <img src="https://github.com/user-attachments/assets/92fcdddf-473a-4727-a054-d84dadf3fdda" width="378" height="418" style="float: left; margin-right: 15px;" />
-
-  <div style="text-align: right;">
-    If the data to be analyze are organized by weekly, monthly or yearly, then these files need to be combined before the analysis can be performed.  
-    For this project, the transaction data are in yearly format and saved in the transaction folder that contains two files for year 2021 and 2022.  
-    Important to note that the files must contain the same number of columns with the same name and the sequence of the columns must be the same.
-  </div>
-</div>
-
+<p>If the data to be analyze are organized by weekly, monthly or yearly, then these files need to be combined before the analysis can be performed. For this project, the transaction data are in yearly format and saved in the transaction folder that contains two files for year 2021 and 2022. Important to note that the files must contain the same number of columns with the same name and the sequence of the columns must be the same</p>
 
 <img width="355" height="390" alt="Image" src="https://github.com/user-attachments/assets/9fcbb31d-f9f8-41e5-9f93-62450da588db" />  
 <p>Similar to earlier step, change the customer_id data type to text and then remove the source.name column.  </p>
@@ -91,7 +84,7 @@ the desired columns you want to add to the transaction table. Also give the merg
 <img width="330" height="600" alt="Image" src="https://github.com/user-attachments/assets/a0de4bd3-3bde-4680-9fd2-c312b0c8dad2" />
 <p>To remove duplicates, click on the icon to the left of the first column and select remove duplicates from the drop down menu.</p>
 
-<img width="500" height="630" alt="Image" src="https://github.com/user-attachments/assets/93a4c1cb-b4f4-433b-8fb4-e73efa2209fa" />
+<img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/93a4c1cb-b4f4-433b-8fb4-e73efa2209fa" />
 <p>Now the data pre-processing work has been done on the combined queries, it is time to close and load as a Table</p>
 
 <img width="900" height="327" alt="Image" src="https://github.com/user-attachments/assets/2709e66c-68f2-4350-9588-f52b73dd3725" />
