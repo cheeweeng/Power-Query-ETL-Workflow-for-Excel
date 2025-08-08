@@ -74,14 +74,14 @@ Now the pre-processing work for transactions is completed, close and load to wor
 <img width="300" height="425" alt="Image" src="https://github.com/user-attachments/assets/110b25e3-9581-4efc-8849-f23229487d39" />
 <img width="550" height="515" alt="Image" src="https://github.com/user-attachments/assets/af9f7e09-517b-4108-8e2a-57a54e11c241" />
 </div>
-Combine the two queries - transactions and customers, by selecting the matching column, which is customer_id. Note the data type of this column must be the same for both connection, otherwise it will return an error.  
+Combine the two queries - transactions and customers - by selecting the transaction table to be the first, which is also the left table. The customer table will be the right table. By default, merge will perform a left outer join. To complete the join, select the matching column of the two tables, which is customer_id. Note the data type of this column must be the same for both connection, otherwise it will return an error.  
 
 <img width="500" height="470" alt="Image" src="https://github.com/user-attachments/assets/b58969b6-46dd-403d-b759-b7f12ce42b1c" />  
 <p>From the Power Query Editor, a new column customers will be created. Click on the top right corner of the column and select
-the desired columns you want to add to the transaction table. Also give the merged connection a name. </p> 
+the desired columns you want to add to the transaction table. Uncheck the 'Use progonal column name as prefix'. Also give the merged connection a name, in this exercise is 'transaction_cust_info'. </p> 
 
 <img width="470" height="320" alt="Image" src="https://github.com/user-attachments/assets/6d4ebb7f-f0e7-497b-8d06-592557b04926" />  
-<p>Reduce dimensionality of the dataset by remove unnecessary columns, in this case, the various address columns.  </p>
+<p>Reduce dimensionality of the dataset by removing unnecessary columns, in this case, the various address columns.  </p>
 
 <img width="330" height="600" alt="Image" src="https://github.com/user-attachments/assets/a0de4bd3-3bde-4680-9fd2-c312b0c8dad2" />
 <p>To remove duplicates, click on the icon to the left of the first column and select remove duplicates from the drop down menu.</p>
@@ -90,6 +90,6 @@ the desired columns you want to add to the transaction table. Also give the merg
 <p>Now the data pre-processing work has been done on the combined queries, it is time to close and load as a Table</p>
 
 <img width="900" height="327" alt="Image" src="https://github.com/user-attachments/assets/2709e66c-68f2-4350-9588-f52b73dd3725" />
-<p>A Table will be created and ready for further analysis and visualization work</p>
+<p>An Excel Table will be created and ready for further analysis and visualization work</p>
 
 
