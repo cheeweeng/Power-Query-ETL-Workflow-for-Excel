@@ -4,7 +4,7 @@ This project will use Power Query to set up connections to various data sources,
   <img width="500" height="471" alt="Image2" src="https://github.com/user-attachments/assets/1b4ec1fb-7ab0-4fa3-9fd7-d0cf51cf2d45" />
 </div> 
 
-Open a new workbook and get data from the data tab to import the customer dataset. In the Navigator pane, click on 'Edit' (Excel 2016) or 'Transform' (Excel 2019 above) to open up the Power Query Editor.  
+Open a new workbook and get data from the data tab to import the customers dataset. In the Navigator pane, click on 'Edit' (Excel 2016) or 'Transform' (Excel 2019 above) to open up the Power Query Editor.  
 
 ### Change data type  
 <img width="645" height="340" alt="Image" src="https://github.com/user-attachments/assets/d8dcb43d-ffef-4518-b83a-b3719c021d18" />  
@@ -26,7 +26,7 @@ A dialogue box will pop up, give the new column a name 'education_level' and ent
 Next, lets add a age column by clicking on the Date icon in Add column tab and selecting Age.
 
 <img width="1090" height="318" alt="Image" src="https://github.com/user-attachments/assets/dd3cf4b3-4406-4c9d-9152-07f2345b6713" />  
-A new column called Age will be created but we have to transform the column to the proper data type.  From the Trasnform tab, click on duration and select Total Years.
+A new column called Age will be created but we have to transform the column to the proper data type.  From the Transform tab, click on duration and select Total Years.
 Still highlighting the Age column, change the data type to whole number.  
 
 ### Merging columns  
@@ -44,10 +44,12 @@ By creating connection only, the query does not load any data into Excel table o
 ### Get data from folder
 
   <img src="https://github.com/user-attachments/assets/92fcdddf-473a-4727-a054-d84dadf3fdda" width="378" height="418" style="float: left; margin-right: 15px;" />
-<p>If the data to be analyze are organized by weekly, monthly or yearly, then these files need to be combined before the analysis can be performed. For this project, the transaction data are in yearly format and saved in the transaction folder that contains two files for year 2021 and 2022. Important to note that the files must contain the same number of columns with the same name and the sequence of the columns must be the same</p>
+<p>If the data to be analyze are organized by weekly, monthly or yearly, then these files need to be combined before the analysis can be performed. For this project, the transaction data are in yearly format and saved in the transaction folder that contains two files for year 2021 and 2022. Important to note that the files must contain the same number of columns with the same name and the sequence of the columns must be the same</p>  
+<img width="550" height="372" alt="Image" src="https://github.com/user-attachments/assets/ab5e1771-abf4-45dc-af28-a23d561b1fe1" />  
+<p>Click on Edit or Transform to open up the Power query editor</p>
 
 <img width="355" height="390" alt="Image" src="https://github.com/user-attachments/assets/9fcbb31d-f9f8-41e5-9f93-62450da588db" />  
-<p>Similar to earlier step, change the customer_id data type to text and then remove the source.name column.  </p>
+<p>Once the data has been imported into Power Query editor, similar to earlier step, change the customer_id data type to text and then remove the Source.Name column.  </p>
 
 
 <img width="700" height="380" alt="Image" src="https://github.com/user-attachments/assets/24da33fb-f3df-4e39-9a6f-fcb098548e48" />   
