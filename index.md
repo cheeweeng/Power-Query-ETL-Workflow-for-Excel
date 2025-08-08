@@ -65,16 +65,16 @@ Next, let's add a new column using Multiply. This time, we will find the amount 
 <img width="600" height="350" alt="Image" src="https://github.com/user-attachments/assets/3cb6964e-fcf7-4983-8530-65d73303448a" />
 <img width="380" height="419" alt="Image" src="https://github.com/user-attachments/assets/995d3313-aff0-4e54-ab4c-1e7d873ea39c" />
 </div>  
-To add a Quarter column, select the transaction date field and from the add column tab, click the Date icon.  From the dropdown, select Quarter and then Quarter of Year.  
-Next, transform the Quarter column by adding a prefix 'Q'.  
+To add a Quarter column, select the transaction date field and from the add column tab, click the Date icon.  From the dropdown, select Quarter and then Quarter of Year.  Next, transform the Quarter column by adding a prefix 'Q'.  
 
-Now the pre-processing work is completed, close and load to workbook and only create connection.  
+Now the pre-processing work for transactions is completed, close and load to workbook and only create connection.  
 
+## Combining Queries
 <div style="display: flex; gap: 10px;">
 <img width="300" height="425" alt="Image" src="https://github.com/user-attachments/assets/110b25e3-9581-4efc-8849-f23229487d39" />
 <img width="550" height="515" alt="Image" src="https://github.com/user-attachments/assets/af9f7e09-517b-4108-8e2a-57a54e11c241" />
 </div>
-Combine the two queries transactions and customers by selecting the matching column, which is customer_id. Note the data type of this column must be the same for both connection, otherwise it will return an error.  
+Combine the two queries - transactions and customers, by selecting the matching column, which is customer_id. Note the data type of this column must be the same for both connection, otherwise it will return an error.  
 
 <img width="500" height="470" alt="Image" src="https://github.com/user-attachments/assets/b58969b6-46dd-403d-b759-b7f12ce42b1c" />  
 <p>From the Power Query Editor, a new column customers will be created. Click on the top right corner of the column and select
