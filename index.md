@@ -78,7 +78,7 @@ Combine the two queries - transactions and customers - by selecting the transact
 
 <img width="500" height="470" alt="Image" src="https://github.com/user-attachments/assets/b58969b6-46dd-403d-b759-b7f12ce42b1c" />  
 <p>From the Power Query Editor, a new column customers will be created. Click on the top right corner of the column and select
-the desired columns you want to add to the transaction table. Uncheck the 'Use progonal column name as prefix'. Also give the merged connection a name, in this exercise is 'transaction_cust_info'. </p> 
+the desired columns you want to add to the transaction table. Uncheck the 'Use original column name as prefix'. Also give the merged connection a name, in this exercise is 'transaction_cust_info'. </p> 
 
 <img width="470" height="320" alt="Image" src="https://github.com/user-attachments/assets/6d4ebb7f-f0e7-497b-8d06-592557b04926" />  
 <p>Reduce dimensionality of the dataset by removing unnecessary columns, in this case, the various address columns.  </p>
